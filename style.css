@@ -242,10 +242,10 @@ form {
 }
 
 form label {
-  font-weight: 500;
-  margin-bottom: 6px;
+  font-weight: 600;
+  margin-bottom: 14px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 form input,
@@ -256,6 +256,7 @@ form textarea {
   font-size: 14px;
   width: 100%;
   box-sizing: border-box;
+  margin-top:10px;
 }
 
 form textarea {
@@ -295,4 +296,8 @@ footer {
   text-decoration: none;
   color: #666;
   font-size: 14px;
+}
+
+section{
+    padding-bottom:6%;
 }
