@@ -106,3 +106,66 @@ button{
     display:flex;
     justify-content: space-around;
 }
+
+
+/* .contact-form{
+    display: flex;
+    justify-content: space-between;;
+    align-items:center;
+    width:85%;
+    margin:0 auto;
+    
+}
+.form-info{
+    display: inline-block;
+} */
+
+.contact-form {
+  display: flex;
+  width:85%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.form-info {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
