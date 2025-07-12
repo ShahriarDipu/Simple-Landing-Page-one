@@ -55,6 +55,16 @@ button{
     padding-top: 10%;
     padding-bottom: 15%;
 }
+
+
+
+.banner-title{
+    font-size: 45px;
+    width:70%;
+font-weight: 600;
+   margin:0 auto;
+   margin-bottom:5%;
+}
 /*Header Banner Style End*/
 
 
@@ -99,22 +109,7 @@ button{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*productive user section start*/
 .productive-user-content{
     display: flex;
     justify-content: space-around;
@@ -154,6 +149,10 @@ button{
 }
 
 
+
+
+
+/*feedback section start*/
 
 .feedback-section-title {
     font-size: 2.2em;
@@ -212,7 +211,7 @@ button{
 
 
 
-
+/*contact section start*/
 
 .contact-form {
   display: flex;
@@ -223,10 +222,12 @@ button{
 }
 
 .form-content h1 {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 700;
   margin: 0;
   line-height: 1.2;
+  width: 70%;
+  padding-left:40px;
 }
 
 .form-info {
@@ -267,6 +268,7 @@ form textarea {
 
 
 
+/*footer section start*/
 
 footer {
   text-align: center;
@@ -300,4 +302,12 @@ footer {
 
 section{
     padding-bottom:6%;
+}
+
+
+button:hover {
+    background-color: #553bbd;
+ cursor: pointer;
+    transform: translateY(-2px),translateX(-2px);
+    box-shadow: 10px 6px 12px rgba(0, 0, 0, 0.15); 
 }
